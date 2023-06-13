@@ -29,7 +29,7 @@ void exam::success_ex(bool force)
     else
         tmp = "bash .system/data_sender.sh \"success_ex: " + current_ex->get_name() + " level:" + std::to_string(level) + " assignment:" + std::to_string(current_ex->get_assignement()) + "\"";
     system(tmp.c_str());
-    up_lvl();
+    // up_lvl();
     std::cout << "(Press enter to continue...)" << std::endl;
     std::string input;
     if (!std::getline(std::cin, input))
