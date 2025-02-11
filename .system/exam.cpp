@@ -191,7 +191,7 @@ void exam::ask_param(void)
 }
 
 // CONSTRUCTOR/OPERATOR/GETTER/SETTER
-exam::exam(void) : exam_grade(0), level(0), level_max(0), failures(0), student(false), backup(false), using_cheatcode(0)
+exam::exam(void) : exam_grade(0), level(0), level_max(0), failures(0), student(false), backup(false), using_cheatcode(0), my_ex(0)
 {
     reelmode = true;
     waiting_time = true;
